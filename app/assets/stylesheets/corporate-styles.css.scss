@@ -1,0 +1,28 @@
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
+
+@import 'corporate-colors';
+
+// Bootstrap overwrites ///////////////////////////////////////////////////////////////
+// (overwrite any bootstrap classes with the colors specified in corporate-colors.css.scss)
+
+// Colors
+$brand-primary: $white;
+$brand-info: $black;
+
+// Scaffolding
+$link-color: $white;
+$link-hover-color: $link-color;
+$text-color: $black;
+
+//Typography
+$font-family-sans-serif: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+@import 'font-awesome';

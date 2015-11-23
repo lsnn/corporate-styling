@@ -1,0 +1,23 @@
+// Include all fonts and specify them here
+//
+// Example:
+//= depend_on_asset 'boton/botonhvy-webfont.eot'
+//= depend_on_asset 'boton/botonhvy-webfont.woff'
+//= depend_on_asset 'boton/botonhvy-webfont.ttf'
+//= depend_on_asset 'boton/botonhvy-webfont.svg'
+
+
+// Specify the font faces to be used:
+@font-face {
+  font-family: 'Heavy';
+  src: font-url('boton/botonhvy-webfont.eot');
+  src: font-url('boton/botonhvy-webfont.eot?#iefix') format('embedded-opentype'), font-url('boton/botonhvy-webfont.woff') format('woff'), font-url('boton/botonhvy-webfont.ttf') format('truetype'), font-url('boton/botonhvy-webfont.svg#Tele2-Heavy') format('svg');
+  font-weight: bold;
+}
+
+
+// Organize the fonts into classes to be easily used throughout the app
+
+.heavy-font {
+  font-family: 'Heavy';
+}
